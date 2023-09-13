@@ -1,0 +1,130 @@
+@media only screen and (min-width: 751px) {
+
+    .header-links {
+        display: flex;
+        justify-content: space-around;
+        font-size: 18px;
+        font-family: 'Barlow', sans-serif;
+        color: white;
+        font-weight: 500;
+        align-items: center;
+        width: 400px;
+    }
+
+
+    header li {
+        cursor: pointer;
+    }
+
+    header li:last-child {
+        padding: 1rem;
+        border-radius: 30px;
+        color: black;
+        background-color: white;
+        font-family: 'Fraunces', serif;
+        font-size: 14px;
+        font-weight: 900;
+    }
+
+    header li:last-child:hover {
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.2);
+        color: white;
+    }
+
+    .dropdown {
+        width: 400px;
+    }
+
+    .hamburger-button {
+        display: none;
+    }
+
+    img {
+        display: block;
+    }
+
+    /* MAIN */
+
+    main p {
+        padding: 1.5rem;
+    }
+
+    /* transform */
+
+    .transform-wrapper,
+    .stand-out-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: end;
+    }
+
+
+    .transform-wrapper img,
+    .stand-out-wrapper img {
+        margin: auto;
+        max-width: 100%;
+    }
+
+    .transform-wrapper img {
+        grid-row: 2;
+    }
+
+    .transform-description {
+        grid-row: 1;
+
+    }
+
+    .transform-description,
+    .stand-out-description {
+        margin: auto;
+        padding: 2.5rem;
+        text-align: start;
+    }
+
+    .inner-description a,
+    .inner-description h3,
+    .inner-description p,
+    .stand-out-description a {
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .inner-description p {
+        margin-bottom: 2rem;
+    }
+
+    /* graphic design and photography */
+
+    .bottom-collage {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .bottom-collage p {
+        padding: 0 4rem;
+    }
+
+    /* testimonial */
+
+    .testimonial-wrapper {
+        padding: 0 3rem;
+    }
+
+    .clients {
+        flex-direction: row;
+        margin-bottom: 5rem;
+    }
+
+    /* bottom wrapper */
+
+    .photo-collage {
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+
+
+}
